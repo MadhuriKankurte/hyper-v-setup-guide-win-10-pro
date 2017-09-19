@@ -1,0 +1,24 @@
+
+
+Windows 10 Pro edition 64 bIT 
+Hyper-V is not compatible on Windows 10 Home Edition Pack.
+
+1. Pre configurations
+ 	
+	First , check for if the Virtualization is enabled in the host OS.
+        If virtualization is disabled , it can be enabled with System BIOS mode as the software has BIOS-level Hardware Virtualization support with minimum 4GB RAM.
+	
+		In BIOS screen , Security -> Virtualization = Enabled
+
+ 	Ensure the Hyper-V feature is checked .
+        Search -> Turn the windows feature on -> Check Hyper-V options and Reboot the machine.
+
+
+
+
+
+
+
+            
+
+    
