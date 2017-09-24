@@ -1,0 +1,12 @@
+
+
+    One way to copy the local host files to guest OS ( Hyper-VM ) 
+
+    1.Turn it off Virtual Machine.
+    2.Locate virtual hard disk image file .vhd of the particular VM.
+    3.Right click on this file and select mount
+    4.Would now find  "System Reserved" and "Local Disk" drives.
+    5.Open the "Local Disk" drive (this is the OS drive on VM)
+    6.Paste you files.
+    7.Eject from the drivers
+    8.Run the Virtusl Machine and one can locate find the just copied files in the corresponding C:\ folders.
